@@ -80,9 +80,11 @@
             this.Controls.Add(this.btnSelectImage);
             this.Controls.Add(this.pictureBox1);
             this.KeyPreview = true;
+            this.MaximumSize = new System.Drawing.Size(710, 436);
+            this.MinimumSize = new System.Drawing.Size(710, 436);
             this.Name = "frmMain";
-            this.Text = "Main Form";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Drawing Bot";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

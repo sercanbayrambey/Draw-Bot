@@ -39,10 +39,7 @@ namespace GarticIOBot
             this.KeyPreview = true;
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private async void StartDrawing()
         {
@@ -145,6 +142,11 @@ namespace GarticIOBot
         private void button1_Click(object sender, EventArgs e)
         {
             StartDrawing();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
